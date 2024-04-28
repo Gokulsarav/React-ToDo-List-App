@@ -1,0 +1,106 @@
+header{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 255, 115);
+    color:hsl(0, 0%, 3%);
+    margin-bottom: 20px;
+}
+
+header h1{
+    margin: 15px;
+}
+
+main{
+    text-align: center; 
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(0, 255, 115);
+    color:hsl(0, 0%, 3%);
+    height: 50px;
+}
+
+li{
+    list-style-type: none;;
+}
+
+.styled{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgrey;
+    vertical-align: middle;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: cursive ;
+    width: 200px;
+}
+
+.check{
+    transform: scale(1.5);
+    margin-right: 8px;
+}
+
+#search{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-left: 8px;
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.none{
+    font-size:20px ;
+    font-family: cursive;
+}
+
+.addss{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-left: 45px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(0, 255, 115) ;
+}
+
+.adds{
+    position: absolute;
+    left:-9999999px;
+}
+
+@media screen and (max-width:600px) {
+    main{
+        margin-right: 30px;
+    }
+
+    form{
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:310px) {
+    button{
+        margin-left: 50%;
+        margin-top: 10px;
+    }
+
+    .addss{
+        margin-left: 50px;
+    }
+
+}
